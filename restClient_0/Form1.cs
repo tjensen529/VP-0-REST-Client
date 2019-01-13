@@ -19,10 +19,11 @@ namespace restClient_0
 
         private void cmdGO_Click(object sender, EventArgs e)
         {
+            txtResponse.Text = string.Empty;
             RESTClient rClient = new RESTClient();
 
             rClient.endPoint = txtRequestURI.Text;
-            debugOutput("RESTClient Object created.");
+            //debugOutput("RESTClient Object created.");
 
             string strJSON = string.Empty;
 

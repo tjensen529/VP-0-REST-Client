@@ -37,7 +37,7 @@
             // 
             // cmdGO
             // 
-            this.cmdGO.Location = new System.Drawing.Point(386, 12);
+            this.cmdGO.Location = new System.Drawing.Point(628, 28);
             this.cmdGO.Name = "cmdGO";
             this.cmdGO.Size = new System.Drawing.Size(75, 23);
             this.cmdGO.TabIndex = 0;
@@ -47,19 +47,19 @@
             // 
             // txtRequestURI
             // 
-            this.txtRequestURI.Location = new System.Drawing.Point(106, 12);
+            this.txtRequestURI.Location = new System.Drawing.Point(15, 31);
             this.txtRequestURI.Name = "txtRequestURI";
-            this.txtRequestURI.Size = new System.Drawing.Size(257, 20);
+            this.txtRequestURI.Size = new System.Drawing.Size(607, 20);
             this.txtRequestURI.TabIndex = 1;
             this.txtRequestURI.Text = "http://dry-cliffs-19849.herokuapp.com/users.json";
             // 
             // txtResponse
             // 
-            this.txtResponse.Location = new System.Drawing.Point(106, 38);
+            this.txtResponse.Location = new System.Drawing.Point(15, 84);
             this.txtResponse.Multiline = true;
             this.txtResponse.Name = "txtResponse";
             this.txtResponse.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtResponse.Size = new System.Drawing.Size(355, 161);
+            this.txtResponse.Size = new System.Drawing.Size(690, 475);
             this.txtResponse.TabIndex = 2;
             // 
             // label1
@@ -74,7 +74,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 41);
+            this.label2.Location = new System.Drawing.Point(12, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 13);
             this.label2.TabIndex = 4;
@@ -84,13 +84,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 211);
+            this.ClientSize = new System.Drawing.Size(728, 589);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtResponse);
             this.Controls.Add(this.txtRequestURI);
             this.Controls.Add(this.cmdGO);
-            this.MaximumSize = new System.Drawing.Size(500, 250);
+            this.MaximumSize = new System.Drawing.Size(2000, 1000);
             this.MinimumSize = new System.Drawing.Size(500, 250);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
