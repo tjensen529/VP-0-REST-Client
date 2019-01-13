@@ -17,6 +17,7 @@ namespace restClient_0
             InitializeComponent();
         }
 
+        #region UI Event Handlers
         private void cmdGO_Click(object sender, EventArgs e)
         {
             txtResponse.Text = string.Empty;
@@ -31,7 +32,9 @@ namespace restClient_0
 
             debugOutput(strJSON);
         }
+        #endregion
 
+        #region debugOutput
         private void debugOutput(string strDebugText)
         {
             try
@@ -46,5 +49,6 @@ namespace restClient_0
                 System.Diagnostics.Debug.Write(ex.Message, ToString() + Environment.NewLine);
             }
         }
+        #endregion
     }
 }

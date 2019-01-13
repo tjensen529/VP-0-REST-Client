@@ -55,6 +55,9 @@
             // 
             // txtResponse
             // 
+            this.txtResponse.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtResponse.Location = new System.Drawing.Point(15, 84);
             this.txtResponse.Multiline = true;
             this.txtResponse.Name = "txtResponse";
